@@ -60,6 +60,7 @@ nav {
     z-index: 2;
 }
 .carousel-caption h5 {
+    width: 100%;
     margin: 5px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -77,4 +78,115 @@ nav {
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
+}
+
+
+
+
+/*Responsive*/
+@media screen and (min-width: 430px) and (max-width: 768px) {
+    /*Nav*/
+    .navbar-nav a {
+        font-size: 20px;
+    }
+    
+    /*Carousel*/
+    .carousel-item {
+        height: 70vh;
+    }
+    .carousel-caption {
+        bottom: 130px;
+    }
+    .carousel-caption h5 {
+        font-size: 25px;
+        margin: 10px;
+    }
+    .carousel-caption p {
+        font-size: 20px;
+        margin: 15px;
+    }
+    .carousel-caption a {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    /*Nav*/
+    .navbar-nav a {
+        font-size: 25px;
+    }
+    
+    /*Carousel*/
+    .carousel-item {
+        height: 80vh;
+    }
+    .carousel-caption {
+        bottom: 140px;
+    }
+    .carousel-caption h5 {
+        font-size: 30px;
+        margin: 15px;
+    }
+    .carousel-caption p {
+        font-size: 25px;
+        margin: 20px;
+    }
+    .carousel-caption a {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    /*Nav*/
+    .navbar-nav a {
+        font-size: 20px;
+    }
+    
+    /*Carousel*/
+    .carousel-item {
+        height: 100vh;
+    }
+    .carousel-caption {
+        bottom: 185px;
+    }
+    .carousel-caption h5 {
+        font-size: 35px;
+        margin: 20px;
+    }
+    .carousel-caption p {
+        font-size: 25px;
+        margin: 25px;
+    }
+    .carousel-caption a {
+        font-size: 30px;
+    }
+}
+@media screen and ( min-width: 1441px) {
+    /*Nav*/
+    .navbar-brand img {
+        height: 60px;
+    }
+    .navbar-brand span {
+        font-size: 30px;
+    }
+    .navbar-nav a {
+        font-size: 25px;
+    }
+    
+    /*Carousel*/
+    .carousel-item {
+        height: 100vh;
+    }
+    .carousel-caption {
+        bottom: 150px;
+    }
+    .carousel-caption h5 {
+        font-size: 50px;
+        margin: 50px;
+    }
+    .carousel-caption p {
+        font-size: 40px;
+        margin: 50px;
+    }
+    .carousel-caption a {
+        font-size: 45px;
+    }
 }
