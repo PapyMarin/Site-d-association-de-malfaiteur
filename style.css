@@ -1,2 +1,45 @@
 /*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Lilita+One&family=Luckiest+Guy&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 74px;
+    font-family: "Belanosima", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*Liens*/
+a {
+    font-family: "Lilita One", cursive;
+    color: #D8B78B;
+    font-size: 17px;
+}
+a:hover {
+    color: #7F512E;
+}
+
+/*Navigation*/
+nav {
+    box-shadow: inset 0px -1px 0px #C5C6C7;
+}
+.navbar-brand span {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 25px;
+}
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+.navbar-nav a {
+    font-family: "Lilita One", cursive;
+    color: #D8B78B;
+    font-size: 17px;
+    margin: 0 10px;
+}
+.navbar-nav a:hover {
+    color:#7F512E;
+}
+
