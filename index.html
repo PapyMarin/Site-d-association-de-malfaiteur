@@ -36,7 +36,7 @@
                 aria-controls="navbarCollapse"
                 aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <!--Collapse-->
                 <div class="collapse navbar-collapse text-center" id="navbarCollapse">
@@ -54,6 +54,106 @@
             </div>
         </nav>
     </header>
+    <main>
+        <section id="carousel">
+            <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                <!--Indicateur-->
+                <div class="carousel-indicators">
+                    <button
+                    class="active"
+                    type="button"
+                    data-bs-target="#carouselControls"
+                    data-bs-slide-to="0"
+                    aria-current="true"
+                    aria-label="Slide 1">
+                    </button>
+                    <button
+                    type="button"
+                    data-bs-target="#carouselControls"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2">
+                    </button>
+                    <button
+                    type="button"
+                    data-bs-target="#carouselControls"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3">
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <!--Carousel item-->
+                    <div class="carousel-item active">
+                        <img 
+                        src="Image/mafieux.jpg"
+                        class="d-block w-100"
+                        alt="illustration d'un mafieux fumant son cigare">
+                        <div class="carousel-caption">
+                            <h5 class="animate__animated animate__bounceInRight animate__delay-1s">
+                                Travaille avec des Professionels
+                            </h5>
+                            <p class="animate__animated animate__bounceInLeft animate__delay-2s">
+                                Et montre ton inutilité à tout le monde
+                            </p>
+                            <p class="animate__animated animate__fadeInUp animate__delay-3s">
+                            <a href="#professionels">Voir plus</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img 
+                        src="Image/equipe.png"
+                        class="d-block w-100"
+                        alt="Dessin de 3 gentlemen malfaiteur">
+                        <div class="carousel-caption">
+                            <h5 class="animate__animated animate__bounceInRight animate__delay-1s">
+                                Rejoins une Equipe
+                            </h5>
+                            <p class="animate__animated animate__bounceInLeft animate__delay-2s">
+                                Et passe des soirées GAV exceptionnelle 
+                            </p>
+                            <p class="animate__animated animate__fadeInUp animate__delay-3s">
+                                <a href="#equipe">Voir plus</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                        src="Image/tete-chapeau.png"
+                        class="d-block w-100"
+                        alt="Image d'un visage de profil avec chapeau sur la tête">
+                        <div class="carousel-caption">
+                            <h5 class="animate__animated animate__bounceInRight animate__delay-1s">
+                                Participe aux missions
+                            </h5>
+                            <p class="animate__animated animate__bounceInLeft animate__delay-2s">
+                                Et donne le maximum de toi même pour ne rien gagner
+                            </p>
+                            <p class="animate__animated animate__fadeInUp animate__delay-3s">
+                                <a href="#mission">Voir plus</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Button Right/Left-->
+                <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselControls"
+                data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+                <button 
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselControls"
+                data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden"></span>
+                </button>
+            </div>  
+        </section>
+    </main>
     <!--Script Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
