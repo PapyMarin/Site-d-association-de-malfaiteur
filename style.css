@@ -203,6 +203,14 @@ nav {
 }
 
 
+/*Contact*/
+.contact button {
+    background-color: #7F512E;
+}
+.contact button:hover {
+    background-color: #D8B78B;
+}
+
 
 
 
