@@ -172,7 +172,7 @@ nav {
 
 
 /*Responsive*/
-@media screen and (min-width: 420px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     /*Titre et paragraphe de section*/
     h2 {
         font-size: 29px;
@@ -200,16 +200,19 @@ nav {
         font-size: 20px;
     }
 
-    /*Description*/
-    .nous-connaitre-img img {
-        margin-left: 200px;
+    /*Professionnels*/
+    .card-text-pro h3 {
+        font-size: 40px;
+    }
+    .card-text-pro p {
+        font-size: 25px;
+    }
+    .card-text-pro h3,
+    .card-text-pro p {
+        text-align: center;
     }
 }
-@media  screen and (min-width: 375px) and (max-width: 426px) {
-    .nous-connaitre-img img {
-        margin-left: 40px;
-    }
-}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     /*Titre et paragraphe de section*/
     h2 {
@@ -236,11 +239,6 @@ nav {
     }
     .carousel-caption a {
         font-size: 25px;
-    }
-
-    /*Description*/
-    .nous-connaitre-img img {
-        height: 320px;
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -281,7 +279,18 @@ nav {
         height: 350px;
         margin-left: 50px;
     }
+
+    /*Professionnels*/
+    .card-text-pro h3 {
+        font-size: 25px;
+    }
+    .card-text-pro p {
+        font-size: 18px;
+    }
 }
+
+
+/*A FAIRE*/
 @media screen and ( min-width: 1441px) {
     /*Titre et paragraphe de section*/
     h2 {
