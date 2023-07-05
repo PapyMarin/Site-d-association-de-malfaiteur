@@ -186,6 +186,23 @@ nav {
 }
 
 
+/*Missions*/
+.mission .card {
+    height: 200px;
+    width: auto;
+    margin: 10px;
+    background-color: #C5C6C7;
+}
+.mission .bi {
+    font-size: 30px;
+}
+.mission .card-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+
 
 
 
