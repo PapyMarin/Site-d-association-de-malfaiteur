@@ -64,7 +64,7 @@ nav {
 }
 
 
-/*Carousel*/
+/*Section Carousel*/
 .carousel-item {
     height: 50vh;
     min-height: 300px;
@@ -99,7 +99,7 @@ nav {
 }
 
 
-/*Description*/
+/*Section Nous Connaître*/
 .nous-connaitre-img img {
     height: 300px;
     width: auto;
@@ -110,7 +110,7 @@ nav {
 }
 
 
-/*Professionels*/
+/*Section Professionels*/
 .card-pro {
     position: relative;
     overflow: hidden;
@@ -154,6 +154,41 @@ nav {
 .card-pro:hover .card-text-pro {
     top: 80px;
 }
+
+
+/*Section Equipe*/
+.equipe .card {
+    height: 100%;
+}
+.equipe .lingodor-title {
+    color: rgb(201, 10, 10);
+}
+.equipe .verdollar-title {
+    color: rgb(6, 110, 6);
+}
+.equipe .espiegle-title {
+    color: rgb(13, 148, 190);
+}
+.equipe .aboudsoufle-title {
+    color: rgb(210, 180, 92);
+}
+.equipe .lingodor-title,
+.equipe .verdollar-title,
+.equipe .espiegle-title,
+.equipe .aboudsouffle-title {
+    font-size: 30px;
+}
+.equipe .lead {
+    color: rgb(57, 56, 56, 0.799);
+}
+.equipe .espiegle-margin {
+    margin-bottom: 40px;
+}
+
+
+
+
+
 
 
 
