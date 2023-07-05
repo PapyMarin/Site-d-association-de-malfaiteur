@@ -16,7 +16,6 @@ body {
     padding: 100px 0;
 }
 
-
 /*Titre et paragraphe de section*/
 h2 {
     color: #7F512E;
@@ -29,7 +28,6 @@ h2 {
     text-align: center;
     color:#D8B78B;
 }
-
 
 /*Liens*/
 a {
@@ -111,6 +109,51 @@ nav {
     text-align: center;
 }
 
+
+/*Professionels*/
+.card-pro {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.card-pro img {
+    width: 100%;
+    height: 100%;
+}
+.card-text-pro {
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 2;
+    transition: 1.1s;
+}
+.card-text-pro h3 {
+    font-size: 25px;
+}
+.card-text-pro p {
+    font-size: 18px;
+}
+.card-pro:before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 220%;
+    background: rgba(0, 0, 0, 0.7);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: .5s;
+}
+.card-pro:hover:before {
+    left: 10%;
+}
+.card-pro:hover .card-text-pro {
+    top: 80px;
+}
 
 
 
