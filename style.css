@@ -11,6 +11,26 @@ body {
 }
 
 
+/*Section padding*/
+.section-padding {
+    padding: 100px 0;
+}
+
+
+/*Titre et paragraphe de section*/
+h2 {
+    color: #7F512E;
+    padding-bottom: 10px;
+    font-size: 27px;
+    text-align: center;
+}
+.paragraphe {
+    font-size: 20px;
+    text-align: center;
+    color:#D8B78B;
+}
+
+
 /*Liens*/
 a {
     font-family: "Lilita One", cursive;
@@ -81,12 +101,40 @@ nav {
 }
 
 
+/*Description*/
+.nous-connaitre-img img {
+    height: 300px;
+    width: auto;
+    margin-left: 10px;
+}
+.nous-connaitre-text {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Responsive*/
-@media screen and (min-width: 430px) and (max-width: 768px) {
-    /*Nav*/
-    .navbar-nav a {
+@media screen and (min-width: 420px) and (max-width: 768px) {
+    /*Titre et paragraphe de section*/
+    h2 {
+        font-size: 29px;
+    }
+    .paragraphe {
         font-size: 20px;
     }
     
@@ -108,11 +156,24 @@ nav {
     .carousel-caption a {
         font-size: 20px;
     }
+
+    /*Description*/
+    .nous-connaitre-img img {
+        margin-left: 200px;
+    }
 }
-@media screen and (min-width: 769px) and (max-width: 992px) {
-    /*Nav*/
-    .navbar-nav a {
-        font-size: 25px;
+@media  screen and (min-width: 375px) and (max-width: 426px) {
+    .nous-connaitre-img img {
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /*Titre et paragraphe de section*/
+    h2 {
+        font-size: 31px;
+    }
+    .paragraphe {
+        font-size: 22px;
     }
     
     /*Carousel*/
@@ -133,8 +194,21 @@ nav {
     .carousel-caption a {
         font-size: 25px;
     }
+
+    /*Description*/
+    .nous-connaitre-img img {
+        height: 320px;
+    }
 }
-@media screen and (min-width: 992px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    /*Titre et paragraphe de section*/
+    h2 {
+        font-size: 31px;
+    }
+    .paragraphe {
+        font-size: 22px;
+    }
+    
     /*Nav*/
     .navbar-nav a {
         font-size: 20px;
@@ -158,8 +232,22 @@ nav {
     .carousel-caption a {
         font-size: 30px;
     }
+
+    /*Description*/
+    .nous-connaitre-img img {
+        height: 350px;
+        margin-left: 50px;
+    }
 }
 @media screen and ( min-width: 1441px) {
+    /*Titre et paragraphe de section*/
+    h2 {
+        font-size: 60px;
+    }
+    .paragraphe {
+        font-size: 40px;
+    }
+    
     /*Nav*/
     .navbar-brand img {
         height: 60px;
@@ -188,5 +276,10 @@ nav {
     }
     .carousel-caption a {
         font-size: 45px;
+    }
+
+    /*Description*/
+    .nous-connaitre-img img {
+        height: 550px;
     }
 }
